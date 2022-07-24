@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/lumiguide/esp-idf",
+  "rev": "8be62947da3fc2ee0394df0c5e65f1f572955b58",
+  "date": "2022-06-27T17:54:37+02:00",
+  "path": "/nix/store/nalwsc89l65qnwf9cwg8q697hk3h52d4-esp-idf-8be6294",
+  "sha256": "0sb9g7aw0rr1xzqy4mjyzyhxw3vg591wkgh8kjxa9l536hpnnr2r",
+  "fetchLFS": false,
+  "fetchSubmodules": true,
+  "deepClone": false,
+  "leaveDotGit": false
+}

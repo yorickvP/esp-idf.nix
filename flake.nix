@@ -6,7 +6,7 @@
   inputs.mach-nix.inputs.nixpkgs.follows = "nixpkgs";
 
   outputs = { self, nixpkgs, mach-nix }:
-    let eachSystem = nixpkgs.lib.genAttrs [ "x86_64-linux" ];
+    let eachSystem = nixpkgs.lib.genAttrs [ "x86_64-linux" "aarch64-linux" ];
     in {
       overlays.default = (self: super: {
         mach-nix = import mach-nix {
